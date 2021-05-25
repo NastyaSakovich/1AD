@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="table">
+      <!-- Шапка таблицы с названиями полей -->
+      <div class="table-header">
+        <div class="table-input-name last-name">
+          <p>Марка</p>
+        </div>
+        <div class="table-input-name first-name">
+          <p>Модель</p>
+        </div>
+        <div class="table-input-name second-name">
+          <p>Кузов</p>
+        </div>
+        <div class="table-input-name cource">
+          <p>Цвет</p>
+        </div>
+        <div class="table-input-name group">
+          <p>Скорость</p>
+        </div>
+      </div>
+      <!-- Блок таблицы с записями -->
+      <div class="table-block">
+        <!-- Запись с полями -->
+        <div class="table-input">
+          <p class="table-input-field last-name">BMW</p>
+          <p class="table-input-field first-name">X5</p>
+          <p class="table-input-field second-name">Внедорожник</p>
+          <p class="table-input-field cource">Чёрный</p>
+          <p class="table-input-field group">250 км/ч</p>
+          <div class="table-input-remove">
+            <button>Удалить</button>
+          </div>
+        </div>
+        <!-- Запись с полями -->
+        <div class="table-input">
+          <p class="table-input-field last-name">BMW</p>
+          <p class="table-input-field first-name">M3</p>
+          <p class="table-input-field second-name">Седан</p>
+          <p class="table-input-field cource">Белый</p>
+          <p class="table-input-field group">237</p>
+          <div class="table-input-remove">
+            <button>Удалить</button>
+          </div>
+        </div>
+        <!-- Запись с полями -->
+        <div class="table-input">
+          <p class="table-input-field last-name">Mercedes-Benz</p>
+          <p class="table-input-field first-name">C63 AMG</p>
+          <p class="table-input-field second-name">Седан</p>
+          <p class="table-input-field cource">Чёрный</p>
+          <p class="table-input-field group">250</p>
+          <div class="table-input-remove">
+            <button>Удалить</button>
+          </div>
+        </div>
+      </div>
+      <!-- Поля для добавления новой записи -->
+      <div class="table-input add">
+        <div class="table-input-field last-name">
+          <input type="text" name="last-name" value="" required />
+        </div>
+        <div class="table-input-field first-name">
+          <input type="text" name="first-name" value="" required />
+        </div>
+        <div class="table-input-field second-name">
+          <input type="text" name="second-name" value="" required />
+        </div>
+        <div class="table-input-field cource">
+          <input type="text" name="cource" value="" required />
+        </div>
+        <div class="table-input-field group">
+          <input type="text" name="group" value="" required />
+        </div>
+        <div class="table-input-add">
+          <button>Добавить</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+	<script src="index1.js"></script>
+
+  </body>
+</html>
